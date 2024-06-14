@@ -1,0 +1,39 @@
+.top-search-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 10px;
+  box-shadow: 0px 1px 20px 4px #edebe4;
+  border-radius: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-container input {
+  padding: 15px 15px 15px 30px;
+  margin: 5px;
+  border: 0;
+  outline: 0;
+  width: 33rem;
+  background: url("../../../../assets/images/bx-search.png") no-repeat;
+  background-position: left center;
+}
+.profile-image {
+  width: 35px;
+  margin-left: 10px;
+}
+.user-details {
+  margin: 0px 10px;
+}
+.user-name {
+  margin: 2px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.user-role {
+  font-size: 12px;
+  font-weight: bold;
+}
+.drop-down-arrow {
+  padding: 10px;
+}
